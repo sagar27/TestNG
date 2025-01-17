@@ -1,8 +1,16 @@
 package test;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class Day4 {
+	
+	@AfterMethod
+	public void afterMethodTest() {
+		System.out.println("---------------------------AfterMethod defined in Day4 class-----------------------------------");
+	}
 	
 	@Test
 	public void mobileLoginHomeLoan() {
@@ -32,6 +40,16 @@ public class Day4 {
 	@Test
 	public void APISignOutModuleHomeLoan() {
 		System.out.println("REST API automation sign out functionality for Home loan applicant");
+	}
+	
+	@AfterSuite
+	public void afterSuiteTest() {
+		System.out.println("This method is the last method that will be run after all other methods in the suite");
+	}
+	
+	@BeforeSuite
+	public void beforeSuiteTest() {
+		System.out.println("This method is the first method to run before all other methods in the suite");
 	}
 
 }

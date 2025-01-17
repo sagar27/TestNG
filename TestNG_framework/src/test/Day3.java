@@ -1,5 +1,6 @@
 package test;
 
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class Day3 {
@@ -33,4 +34,10 @@ public class Day3 {
 	public void APISignOutModuleCarLoan() {
 		System.out.println("REST API automation sign out functionality for Car loan applicant");
 	}
+	
+	@BeforeMethod
+	public void beforeMethodTest() {
+		System.out.println("---------------------------BeforeMethod defined in Day3 class-----------------------------------");
+	}
+	
 }

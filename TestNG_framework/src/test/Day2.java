@@ -1,7 +1,9 @@
 package test;
 
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -45,6 +47,16 @@ public class Day2 {
 	@BeforeTest
 	public void setUp() {
 		System.out.println("This will be executed first, before the tests defined between <test> and</test> tags");
+	}
+	
+	@BeforeClass
+	public void beforeclassMethod() {
+		System.out.println("This BeforeClass method defined inside Day2 will execute before all test methods in THIS CLASS is executed");
+	}
+	
+	@AfterClass
+	public void afterClassMethod() {
+		System.out.println("This AfterClass method defined inside Day2 will execute after all the test methods in THIS CLASS is executed");
 	}
 
 }
