@@ -2,98 +2,160 @@
 <testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-17T17:51:12 IST" name="Loan Department" finished-at="2025-01-17T17:51:12 IST" duration-ms="352">
+  <suite started-at="2025-01-17T19:48:48 IST" name="Loan Department" finished-at="2025-01-17T19:48:49 IST" duration-ms="191">
     <groups>
     </groups>
-    <test started-at="2025-01-17T17:51:12 IST" name="Day3" finished-at="2025-01-17T17:51:12 IST" duration-ms="130">
-      <class name="test.Day3">
-        <test-method signature="APILoginModuleCarLoan()[pri:0, instance:test.Day3@942a29c]" started-at="2025-01-17T17:51:12 IST" name="APILoginModuleCarLoan" finished-at="2025-01-17T17:51:12 IST" duration-ms="21" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- APILoginModuleCarLoan -->
-        <test-method signature="APISignOutModuleCarLoan()[pri:0, instance:test.Day3@942a29c]" started-at="2025-01-17T17:51:12 IST" name="APISignOutModuleCarLoan" finished-at="2025-01-17T17:51:12 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- APISignOutModuleCarLoan -->
-        <test-method signature="mobileLoginCarLoan()[pri:0, instance:test.Day3@942a29c]" started-at="2025-01-17T17:51:12 IST" name="mobileLoginCarLoan" finished-at="2025-01-17T17:51:12 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileLoginCarLoan -->
-        <test-method signature="mobileSignOutCarLoan()[pri:0, instance:test.Day3@942a29c]" started-at="2025-01-17T17:51:12 IST" name="mobileSignOutCarLoan" finished-at="2025-01-17T17:51:12 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileSignOutCarLoan -->
-        <test-method signature="webLoginCarLoan()[pri:0, instance:test.Day3@942a29c]" started-at="2025-01-17T17:51:12 IST" name="webLoginCarLoan" finished-at="2025-01-17T17:51:12 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webLoginCarLoan -->
-        <test-method signature="webSignOutCarLoan()[pri:0, instance:test.Day3@942a29c]" started-at="2025-01-17T17:51:12 IST" name="webSignOutCarLoan" finished-at="2025-01-17T17:51:12 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webSignOutCarLoan -->
-      </class> <!-- test.Day3 -->
-    </test> <!-- Day3 -->
-    <test started-at="2025-01-17T17:51:12 IST" name="Day2 and Day4" finished-at="2025-01-17T17:51:12 IST" duration-ms="74">
+    <test started-at="2025-01-17T19:48:48 IST" name="All loans" finished-at="2025-01-17T19:48:49 IST" duration-ms="191">
       <class name="test.Day2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.Day2@710c2b53]" started-at="2025-01-17T17:51:12 IST" name="setUp" finished-at="2025-01-17T17:51:12 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.Day2@7ef82753]" started-at="2025-01-17T19:48:48 IST" name="setUp" finished-at="2025-01-17T19:48:48 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="APILoginModulePersonalLoan()[pri:0, instance:test.Day2@710c2b53]" started-at="2025-01-17T17:51:12 IST" name="APILoginModulePersonalLoan" finished-at="2025-01-17T17:51:12 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeclassMethod()[pri:0, instance:test.Day2@7ef82753]" started-at="2025-01-17T19:48:48 IST" name="beforeclassMethod" finished-at="2025-01-17T19:48:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclassMethod -->
+        <test-method signature="APILoginModulePersonalLoan()[pri:0, instance:test.Day2@7ef82753]" started-at="2025-01-17T19:48:48 IST" name="APILoginModulePersonalLoan" finished-at="2025-01-17T19:48:48 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- APILoginModulePersonalLoan -->
-        <test-method signature="APISignOutModulePersonalLoan()[pri:0, instance:test.Day2@710c2b53]" started-at="2025-01-17T17:51:12 IST" name="APISignOutModulePersonalLoan" finished-at="2025-01-17T17:51:12 IST" duration-ms="2" status="PASS">
+        <test-method signature="APISignOutModulePersonalLoan()[pri:0, instance:test.Day2@7ef82753]" started-at="2025-01-17T19:48:48 IST" name="APISignOutModulePersonalLoan" finished-at="2025-01-17T19:48:48 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- APISignOutModulePersonalLoan -->
-        <test-method signature="mobileLoginPersonalLoan()[pri:0, instance:test.Day2@710c2b53]" started-at="2025-01-17T17:51:12 IST" name="mobileLoginPersonalLoan" finished-at="2025-01-17T17:51:12 IST" duration-ms="2" status="PASS">
+        <test-method signature="mobileLoginPersonalLoan()[pri:0, instance:test.Day2@7ef82753]" started-at="2025-01-17T19:48:48 IST" name="mobileLoginPersonalLoan" finished-at="2025-01-17T19:48:48 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileLoginPersonalLoan -->
-        <test-method signature="mobileSignOutPersonalLoan()[pri:0, instance:test.Day2@710c2b53]" started-at="2025-01-17T17:51:12 IST" name="mobileSignOutPersonalLoan" finished-at="2025-01-17T17:51:12 IST" duration-ms="3" status="PASS">
+        <test-method signature="mobileSignOutPersonalLoan()[pri:0, instance:test.Day2@7ef82753]" started-at="2025-01-17T19:48:48 IST" name="mobileSignOutPersonalLoan" finished-at="2025-01-17T19:48:48 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileSignOutPersonalLoan -->
-        <test-method signature="webLoginPersonalLoan()[pri:0, instance:test.Day2@710c2b53]" started-at="2025-01-17T17:51:12 IST" name="webLoginPersonalLoan" finished-at="2025-01-17T17:51:12 IST" duration-ms="2" status="PASS">
+        <test-method signature="webLoginPersonalLoan()[pri:0, instance:test.Day2@7ef82753]" started-at="2025-01-17T19:48:48 IST" name="webLoginPersonalLoan" finished-at="2025-01-17T19:48:48 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webLoginPersonalLoan -->
-        <test-method signature="webSignOutPersonalLoan()[pri:0, instance:test.Day2@710c2b53]" started-at="2025-01-17T17:51:12 IST" name="webSignOutPersonalLoan" finished-at="2025-01-17T17:51:12 IST" duration-ms="2" status="PASS">
+        <test-method signature="webSignOutPersonalLoan()[pri:0, instance:test.Day2@7ef82753]" started-at="2025-01-17T19:48:48 IST" name="webSignOutPersonalLoan" finished-at="2025-01-17T19:48:48 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webSignOutPersonalLoan -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:test.Day2@710c2b53]" started-at="2025-01-17T17:51:12 IST" name="cleanUp" finished-at="2025-01-17T17:51:12 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:test.Day2@7ef82753]" started-at="2025-01-17T19:48:48 IST" name="afterClassMethod" finished-at="2025-01-17T19:48:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:test.Day2@7ef82753]" started-at="2025-01-17T19:48:49 IST" name="cleanUp" finished-at="2025-01-17T19:48:49 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- test.Day2 -->
+      <class name="test.Day3">
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:test.Day3@2034b64c]" started-at="2025-01-17T19:48:48 IST" name="beforeMethodTest" finished-at="2025-01-17T19:48:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="APILoginModuleCarLoan()[pri:0, instance:test.Day3@2034b64c]" started-at="2025-01-17T19:48:48 IST" name="APILoginModuleCarLoan" finished-at="2025-01-17T19:48:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginModuleCarLoan -->
+        <test-method signature="APISignOutModuleCarLoan()[pri:0, instance:test.Day3@2034b64c]" started-at="2025-01-17T19:48:48 IST" name="APISignOutModuleCarLoan" finished-at="2025-01-17T19:48:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APISignOutModuleCarLoan -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:test.Day3@2034b64c]" started-at="2025-01-17T19:48:48 IST" name="beforeMethodTest" finished-at="2025-01-17T19:48:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:test.Day3@2034b64c]" started-at="2025-01-17T19:48:48 IST" name="beforeMethodTest" finished-at="2025-01-17T19:48:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="mobileLoginCarLoan()[pri:0, instance:test.Day3@2034b64c]" started-at="2025-01-17T19:48:48 IST" name="mobileLoginCarLoan" finished-at="2025-01-17T19:48:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCarLoan -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:test.Day3@2034b64c]" started-at="2025-01-17T19:48:48 IST" name="beforeMethodTest" finished-at="2025-01-17T19:48:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="mobileSignOutCarLoan()[pri:0, instance:test.Day3@2034b64c]" started-at="2025-01-17T19:48:48 IST" name="mobileSignOutCarLoan" finished-at="2025-01-17T19:48:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSignOutCarLoan -->
+        <test-method signature="webLoginCarLoan()[pri:0, instance:test.Day3@2034b64c]" started-at="2025-01-17T19:48:48 IST" name="webLoginCarLoan" finished-at="2025-01-17T19:48:48 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCarLoan -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:test.Day3@2034b64c]" started-at="2025-01-17T19:48:48 IST" name="beforeMethodTest" finished-at="2025-01-17T19:48:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:test.Day3@2034b64c]" started-at="2025-01-17T19:48:48 IST" name="beforeMethodTest" finished-at="2025-01-17T19:48:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="webSignOutCarLoan()[pri:0, instance:test.Day3@2034b64c]" started-at="2025-01-17T19:48:48 IST" name="webSignOutCarLoan" finished-at="2025-01-17T19:48:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webSignOutCarLoan -->
+      </class> <!-- test.Day3 -->
       <class name="test.Day4">
-        <test-method signature="APILoginModuleHomeLoan()[pri:0, instance:test.Day4@5386659f]" started-at="2025-01-17T17:51:12 IST" name="APILoginModuleHomeLoan" finished-at="2025-01-17T17:51:12 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="beforeSuiteTest()[pri:0, instance:test.Day4@663c9e7a]" started-at="2025-01-17T19:48:48 IST" name="beforeSuiteTest" finished-at="2025-01-17T19:48:48 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteTest -->
+        <test-method signature="APILoginModuleHomeLoan()[pri:0, instance:test.Day4@663c9e7a]" started-at="2025-01-17T19:48:48 IST" name="APILoginModuleHomeLoan" finished-at="2025-01-17T19:48:48 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- APILoginModuleHomeLoan -->
-        <test-method signature="APISignOutModuleHomeLoan()[pri:0, instance:test.Day4@5386659f]" started-at="2025-01-17T17:51:12 IST" name="APISignOutModuleHomeLoan" finished-at="2025-01-17T17:51:12 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:test.Day4@663c9e7a]" started-at="2025-01-17T19:48:49 IST" name="afterMethodTest" finished-at="2025-01-17T19:48:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method signature="APISignOutModuleHomeLoan()[pri:0, instance:test.Day4@663c9e7a]" started-at="2025-01-17T19:48:49 IST" name="APISignOutModuleHomeLoan" finished-at="2025-01-17T19:48:49 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- APISignOutModuleHomeLoan -->
-        <test-method signature="mobileLoginHomeLoan()[pri:0, instance:test.Day4@5386659f]" started-at="2025-01-17T17:51:12 IST" name="mobileLoginHomeLoan" finished-at="2025-01-17T17:51:12 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:test.Day4@663c9e7a]" started-at="2025-01-17T19:48:49 IST" name="afterMethodTest" finished-at="2025-01-17T19:48:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method signature="mobileLoginHomeLoan()[pri:0, instance:test.Day4@663c9e7a]" started-at="2025-01-17T19:48:49 IST" name="mobileLoginHomeLoan" finished-at="2025-01-17T19:48:49 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileLoginHomeLoan -->
-        <test-method signature="mobileSignOutHomeLoan()[pri:0, instance:test.Day4@5386659f]" started-at="2025-01-17T17:51:12 IST" name="mobileSignOutHomeLoan" finished-at="2025-01-17T17:51:12 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:test.Day4@663c9e7a]" started-at="2025-01-17T19:48:49 IST" name="afterMethodTest" finished-at="2025-01-17T19:48:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method signature="mobileSignOutHomeLoan()[pri:0, instance:test.Day4@663c9e7a]" started-at="2025-01-17T19:48:49 IST" name="mobileSignOutHomeLoan" finished-at="2025-01-17T19:48:49 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileSignOutHomeLoan -->
-        <test-method signature="webLoginHomeLoan()[pri:0, instance:test.Day4@5386659f]" started-at="2025-01-17T17:51:12 IST" name="webLoginHomeLoan" finished-at="2025-01-17T17:51:12 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:test.Day4@663c9e7a]" started-at="2025-01-17T19:48:49 IST" name="afterMethodTest" finished-at="2025-01-17T19:48:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method signature="webLoginHomeLoan()[pri:0, instance:test.Day4@663c9e7a]" started-at="2025-01-17T19:48:49 IST" name="webLoginHomeLoan" finished-at="2025-01-17T19:48:49 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webLoginHomeLoan -->
-        <test-method signature="webSignOutHomeLoan()[pri:0, instance:test.Day4@5386659f]" started-at="2025-01-17T17:51:12 IST" name="webSignOutHomeLoan" finished-at="2025-01-17T17:51:12 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:test.Day4@663c9e7a]" started-at="2025-01-17T19:48:49 IST" name="afterMethodTest" finished-at="2025-01-17T19:48:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method signature="webSignOutHomeLoan()[pri:0, instance:test.Day4@663c9e7a]" started-at="2025-01-17T19:48:49 IST" name="webSignOutHomeLoan" finished-at="2025-01-17T19:48:49 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webSignOutHomeLoan -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:test.Day4@663c9e7a]" started-at="2025-01-17T19:48:49 IST" name="afterMethodTest" finished-at="2025-01-17T19:48:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterSuiteTest()[pri:0, instance:test.Day4@663c9e7a]" started-at="2025-01-17T19:48:49 IST" name="afterSuiteTest" finished-at="2025-01-17T19:48:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteTest -->
       </class> <!-- test.Day4 -->
-    </test> <!-- Day2 and Day4 -->
+    </test> <!-- All loans -->
   </suite> <!-- Loan Department -->
 </testng-results>
