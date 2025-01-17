@@ -15,5 +15,14 @@ public class Day1 {
 	public void testngmethod(){
 		System.out.println("inside testngmethod");
 	}
-
+	
+	@Test
+	public void Demo() {
+		System.out.println("Hello");
+	}
+	
+	@Test
+	public void Demo1() {
+		System.out.println("Bye");
+	}
 }
