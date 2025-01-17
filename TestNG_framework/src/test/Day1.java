@@ -1,8 +1,8 @@
-package one;
+package test;
 
 import org.testng.annotations.Test;
 
-public class Testing {
+public class Day1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -10,6 +10,7 @@ public class Testing {
 		System.out.println("inside main");
 
 	}
+	
 	@Test
 	public void testngmethod(){
 		System.out.println("inside testngmethod");
