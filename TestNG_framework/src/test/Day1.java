@@ -1,5 +1,6 @@
 package test;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Day1 {
@@ -15,10 +16,10 @@ public class Day1 {
 	public void testngmethod(){
 		System.out.println("inside testngmethod");
 	}
-	
+	@Parameters({"URL"})
 	@Test
-	public void Demo() {
-		System.out.println("Hello");
+	public void Demo(String s) {
+		System.out.println("Hello " +s);
 	}
 	
 	@Test

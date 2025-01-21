@@ -5,13 +5,16 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
 
 public class Day2 {
 	
+	@Parameters({"URL"})
 	@Test
-	public void mobileLoginPersonalLoan() {
-		System.out.println("Mobile login functionality for Personal loan applicant");
+	public void mobileLoginPersonalLoan(String s) {
+		System.out.println("Mobile login functionality for Personal loan applicant " +s);
 	}
 	
 	@Test

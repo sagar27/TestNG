@@ -1,13 +1,15 @@
 package test;
 
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Day3 {
 
+	@Parameters({"URL"})
 	@Test
-	public void mobileLoginCarLoan() {
-		System.out.println("Mobile login functionality for car loan applicant");
+	public void mobileLoginCarLoan(String s) {
+		System.out.println("Mobile login functionality for car loan applicant " +s);
 	}
 	
 	@Test

@@ -3,18 +3,25 @@ package test;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Day4 {
+	
+	@Test(enabled=false)
+	public void disabledMethod() {
+		System.out.println("This test case is disabled using 'enabled' flag");
+	}
 	
 	@AfterMethod
 	public void afterMethodTest() {
 		System.out.println("---------------------------AfterMethod defined in Day4 class-----------------------------------");
 	}
 	
+	@Parameters({"URL"})
 	@Test
-	public void mobileLoginHomeLoan() {
-		System.out.println("Mobile login functionality for Home loan applicant");
+	public void mobileLoginHomeLoan(String s) {
+		System.out.println("Mobile login functionality for Home loan applicant " +s);
 	}
 	
 	@Test
