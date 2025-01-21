@@ -37,7 +37,7 @@ public class Day3 {
 	
 	@BeforeMethod
 	public void beforeMethodTest() {
-		System.out.println("---------------------------BeforeMethod defined in Day3 class-----------------------------------");
+		System.out.println("-----------------------------BeforeMethod defined in Day3 class-----------------------------------");
 	}
 	
 }
