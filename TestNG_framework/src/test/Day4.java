@@ -22,7 +22,7 @@ public class Day4 {
 		System.out.println("Web login functionality for Home loan applicant");
 	}
 	
-	@Test
+	@Test(groups = {"API"})
 	public void APILoginModuleHomeLoan() {
 		System.out.println("REST API automation login functionality for Home loan applicant");
 	}
@@ -37,7 +37,7 @@ public class Day4 {
 		System.out.println("Web sign out functionality for Home loan applicant");
 	}
 	
-	@Test
+	@Test(groups = {"API"})
 	public void APISignOutModuleHomeLoan() {
 		System.out.println("REST API automation sign out functionality for Home loan applicant");
 	}

@@ -19,7 +19,7 @@ public class Day2 {
 		System.out.println("Web login functionality for Personal loan applicant");
 	}
 	
-	@Test
+	@Test(groups = {"API"})
 	public void APILoginModulePersonalLoan() {
 		System.out.println("REST API automation login functionality for Personal loan applicant");
 	}
@@ -34,7 +34,7 @@ public class Day2 {
 		System.out.println("Web sign out functionality for Personal loan applicant");
 	}
 	
-	@Test
+	@Test(groups = {"API"})
 	public void APISignOutModulePersonalLoan() {
 		System.out.println("REST API automation sign out functionality for Personal loan applicant");
 	}

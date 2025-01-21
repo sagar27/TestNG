@@ -15,7 +15,7 @@ public class Day3 {
 		System.out.println("Web login functionality for car loan applicant");
 	}
 	
-	@Test
+	@Test(groups = {"API"})
 	public void APILoginModuleCarLoan() {
 		System.out.println("REST API automation login functionality for car loan applicant");
 	}
@@ -30,7 +30,7 @@ public class Day3 {
 		System.out.println("Web sign out functionality for Car loan applicant");
 	}
 	
-	@Test
+	@Test(groups = {"API"})
 	public void APISignOutModuleCarLoan() {
 		System.out.println("REST API automation sign out functionality for Car loan applicant");
 	}
