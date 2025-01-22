@@ -1,6 +1,7 @@
 package test;
 
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -10,6 +11,14 @@ public class Day3 {
 	@Test
 	public void mobileLoginCarLoan(String s) {
 		System.out.println("Mobile login functionality for car loan applicant " +s);
+	}
+	
+	@Test(dataProvider = "getData")
+	public void login(String username, String pwd) {
+		
+		System.out.println("Username: " +username);
+		System.out.println("Password: " +pwd);
+		
 	}
 	
 	@Test
@@ -42,4 +51,24 @@ public class Day3 {
 		System.out.println("-----------------------------BeforeMethod defined in Day3 class-----------------------------------");
 	}
 	
+	@DataProvider
+	public Object[][] getData(){
+		
+		Object[][] data = new Object[3][2];
+		
+		//set 1
+		data[0][0]="usernameONE";
+		data[0][1]="passwordONE";
+		
+		//set2
+		data[1][0] = "usernameTWO";
+		data[1][1] = "passwordTWO";
+		
+		//set3
+		data[2][0] = "usernameTHREE";
+		data[2][1] = "passwordTHREE";
+				
+		
+		return data;
+	}
 }
